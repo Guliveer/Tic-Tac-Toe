@@ -42,7 +42,7 @@ public class TicTacToe extends JFrame implements ActionListener {
         if (gameWon) return; // if game is already won: do nothing
 
         JButton clickedButton = (JButton) e.getSource(); // Get clicked button
-        if (!clickedButton.getText().isEmpty()) return; // if button is already clicked: do nothing
+        if (!clickedButton.getText().isEmpty()) return; // if button is already clicked (i.e. not empty): do nothing
 
         clickedButton.setText(currentPlayer); // Set button text to current player
 
