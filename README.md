@@ -2,6 +2,8 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 
 ![GitHub Created At](https://img.shields.io/github/created-at/Guliveer/Tic-Tac-Toe?style=for-the-badge)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Guliveer/Tic-Tac-Toe/main?style=for-the-badge&color=blue)
+
 
 # Tic-Tac-Toe 🕹️
 
