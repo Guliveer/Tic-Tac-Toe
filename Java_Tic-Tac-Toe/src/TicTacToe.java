@@ -48,11 +48,11 @@ public class TicTacToe extends JFrame implements ActionListener {
 
         if (checkWin()) {
             gameWon = true;
-            System.out.println("\n---\nPlayer [" + currentPlayer + "] wins!\n---");
+            System.out.println("\n---\nPlayer [" + currentPlayer + "] wins!\n---\n");
             JOptionPane.showMessageDialog(this, "Player " + currentPlayer + " wins!");
             resetGame();
         } else if (checkDraw()) {
-            System.out.println("\n---\nDraw!\n---");
+            System.out.println("\n---\nDraw!\n---\n");
             JOptionPane.showMessageDialog(this, "Draw!");
             resetGame();
         } else {
